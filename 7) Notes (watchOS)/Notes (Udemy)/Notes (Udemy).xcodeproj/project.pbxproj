@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723F4A882A3F73BC00B7595A /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F4A872A3F73BC00B7595A /* CreditsView.swift */; };
+		723F4A8C2A3F74AC00B7595A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F4A8B2A3F74AC00B7595A /* HeaderView.swift */; };
+		723F4A902A3F779900B7595A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F4A8F2A3F779900B7595A /* SettingsView.swift */; };
+		726BED5D2A3F70050067DE5D /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726BED5C2A3F70050067DE5D /* NoteDetailView.swift */; };
+		727E9BF62A36631500B3E956 /* Notes (Udemy) Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 727E9BF52A36631500B3E956 /* Notes (Udemy) Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		727E9BFB2A36631500B3E956 /* Notes__Udemy_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E9BFA2A36631500B3E956 /* Notes__Udemy_App.swift */; };
+		727E9BFD2A36631500B3E956 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E9BFC2A36631500B3E956 /* ContentView.swift */; };
+		727E9BFF2A36631600B3E956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727E9BFE2A36631600B3E956 /* Assets.xcassets */; };
+		727E9C022A36631600B3E956 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727E9C012A36631600B3E956 /* Preview Assets.xcassets */; };
+		727E9C0F2A36643E00B3E956 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E9C0E2A36643E00B3E956 /* Note.swift */; };
+		727E9C112A369D9B00B3E956 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E9C102A369D9B00B3E956 /* NoteListView.swift */; };
+		727E9C152A369FA000B3E956 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727E9C142A369FA000B3E956 /* Constant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		727E9BF72A36631500B3E956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727E9BE92A36631400B3E956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727E9BF42A36631500B3E956;
+			remoteInfo = "Notes (Udemy) Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		727E9C082A36631600B3E956 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				727E9BF62A36631500B3E956 /* Notes (Udemy) Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		723F4A872A3F73BC00B7595A /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		723F4A8B2A3F74AC00B7595A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		723F4A8F2A3F779900B7595A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		726BED5C2A3F70050067DE5D /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		727E9BEF2A36631500B3E956 /* Notes (Udemy).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes (Udemy).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727E9BF52A36631500B3E956 /* Notes (Udemy) Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes (Udemy) Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727E9BFA2A36631500B3E956 /* Notes__Udemy_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes__Udemy_App.swift; sourceTree = "<group>"; };
+		727E9BFC2A36631500B3E956 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		727E9BFE2A36631600B3E956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		727E9C012A36631600B3E956 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		727E9C0E2A36643E00B3E956 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		727E9C102A369D9B00B3E956 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		727E9C142A369FA000B3E956 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727E9BF22A36631500B3E956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		723F4A892A3F73CC00B7595A /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				727E9BFC2A36631500B3E956 /* ContentView.swift */,
+				727E9C102A369D9B00B3E956 /* NoteListView.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		723F4A8A2A3F73D200B7595A /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				726BED5C2A3F70050067DE5D /* NoteDetailView.swift */,
+				723F4A872A3F73BC00B7595A /* CreditsView.swift */,
+				723F4A8F2A3F779900B7595A /* SettingsView.swift */,
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
+		723F4A8E2A3F765600B7595A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				723F4A8B2A3F74AC00B7595A /* HeaderView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		727E9BE82A36631400B3E956 = {
+			isa = PBXGroup;
+			children = (
+				727E9BF92A36631500B3E956 /* Notes (Udemy) Watch App */,
+				727E9BF02A36631500B3E956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		727E9BF02A36631500B3E956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				727E9BEF2A36631500B3E956 /* Notes (Udemy).app */,
+				727E9BF52A36631500B3E956 /* Notes (Udemy) Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		727E9BF92A36631500B3E956 /* Notes (Udemy) Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				723F4A8E2A3F765600B7595A /* Component */,
+				727E9C0D2A36642D00B3E956 /* Model */,
+				727E9C132A369F9500B3E956 /* Utility */,
+				727E9C0C2A36641E00B3E956 /* Views */,
+				727E9BFE2A36631600B3E956 /* Assets.xcassets */,
+				727E9C002A36631600B3E956 /* Preview Content */,
+			);
+			path = "Notes (Udemy) Watch App";
+			sourceTree = "<group>";
+		};
+		727E9C002A36631600B3E956 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				727E9C012A36631600B3E956 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		727E9C0C2A36641E00B3E956 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				727E9BFA2A36631500B3E956 /* Notes__Udemy_App.swift */,
+				723F4A892A3F73CC00B7595A /* Main View */,
+				723F4A8A2A3F73D200B7595A /* Detail View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		727E9C0D2A36642D00B3E956 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				727E9C0E2A36643E00B3E956 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		727E9C132A369F9500B3E956 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				727E9C142A369FA000B3E956 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		727E9BEE2A36631500B3E956 /* Notes (Udemy) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727E9C092A36631600B3E956 /* Build configuration list for PBXNativeTarget "Notes (Udemy)" */;
+			buildPhases = (
+				727E9BED2A36631500B3E956 /* Resources */,
+				727E9C082A36631600B3E956 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				727E9BF82A36631500B3E956 /* PBXTargetDependency */,
+			);
+			name = "Notes (Udemy)";
+			productName = "Notes (Udemy)";
+			productReference = 727E9BEF2A36631500B3E956 /* Notes (Udemy).app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		727E9BF42A36631500B3E956 /* Notes (Udemy) Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727E9C052A36631600B3E956 /* Build configuration list for PBXNativeTarget "Notes (Udemy) Watch App" */;
+			buildPhases = (
+				727E9BF12A36631500B3E956 /* Sources */,
+				727E9BF22A36631500B3E956 /* Frameworks */,
+				727E9BF32A36631500B3E956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notes (Udemy) Watch App";
+			productName = "Notes (Udemy) Watch App";
+			productReference = 727E9BF52A36631500B3E956 /* Notes (Udemy) Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727E9BE92A36631400B3E956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					727E9BEE2A36631500B3E956 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					727E9BF42A36631500B3E956 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 727E9BEC2A36631400B3E956 /* Build configuration list for PBXProject "Notes (Udemy)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 727E9BE82A36631400B3E956;
+			productRefGroup = 727E9BF02A36631500B3E956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727E9BEE2A36631500B3E956 /* Notes (Udemy) */,
+				727E9BF42A36631500B3E956 /* Notes (Udemy) Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727E9BED2A36631500B3E956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727E9BF32A36631500B3E956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727E9C022A36631600B3E956 /* Preview Assets.xcassets in Resources */,
+				727E9BFF2A36631600B3E956 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727E9BF12A36631500B3E956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723F4A8C2A3F74AC00B7595A /* HeaderView.swift in Sources */,
+				727E9BFD2A36631500B3E956 /* ContentView.swift in Sources */,
+				723F4A882A3F73BC00B7595A /* CreditsView.swift in Sources */,
+				723F4A902A3F779900B7595A /* SettingsView.swift in Sources */,
+				727E9BFB2A36631500B3E956 /* Notes__Udemy_App.swift in Sources */,
+				727E9C152A369FA000B3E956 /* Constant.swift in Sources */,
+				726BED5D2A3F70050067DE5D /* NoteDetailView.swift in Sources */,
+				727E9C112A369D9B00B3E956 /* NoteListView.swift in Sources */,
+				727E9C0F2A36643E00B3E956 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		727E9BF82A36631500B3E956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 727E9BF42A36631500B3E956 /* Notes (Udemy) Watch App */;
+			targetProxy = 727E9BF72A36631500B3E956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		727E9C032A36631600B3E956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		727E9C042A36631600B3E956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		727E9C062A36631600B3E956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notes (Udemy) Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TZ48YZ6N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes (Udemy)";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nataliealvarez.Notes--Udemy-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		727E9C072A36631600B3E956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notes (Udemy) Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TZ48YZ6N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes (Udemy)";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nataliealvarez.Notes--Udemy-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		727E9C0A2A36631600B3E956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TZ48YZ6N3;
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes (Udemy)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nataliealvarez.Notes--Udemy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		727E9C0B2A36631600B3E956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TZ48YZ6N3;
+				INFOPLIST_KEY_CFBundleDisplayName = "Notes (Udemy)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nataliealvarez.Notes--Udemy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727E9BEC2A36631400B3E956 /* Build configuration list for PBXProject "Notes (Udemy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727E9C032A36631600B3E956 /* Debug */,
+				727E9C042A36631600B3E956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727E9C052A36631600B3E956 /* Build configuration list for PBXNativeTarget "Notes (Udemy) Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727E9C062A36631600B3E956 /* Debug */,
+				727E9C072A36631600B3E956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727E9C092A36631600B3E956 /* Build configuration list for PBXNativeTarget "Notes (Udemy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727E9C0A2A36631600B3E956 /* Debug */,
+				727E9C0B2A36631600B3E956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727E9BE92A36631400B3E956 /* Project object */;
+}
