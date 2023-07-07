@@ -135,8 +135,8 @@
 		725DB21E2A2AC12300D39198 /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				725DB23B2A2AC49E00D39198 /* CoreData */,
 				725DB2432A2ACD0D00D39198 /* Extension */,
-				725DB23B2A2AC49E00D39198 /* Model */,
 				725DB2322A2AC16400D39198 /* Sound */,
 				728F61FE2A32575500E27CD7 /* Style */,
 				725DB2422A2AC90200D39198 /* Utility */,
@@ -176,13 +176,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		725DB23B2A2AC49E00D39198 /* Model */ = {
+		725DB23B2A2AC49E00D39198 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				725DB22A2A2AC12400D39198 /* Devote.xcdatamodeld */,
 				725DB2282A2AC12400D39198 /* Persistence.swift */,
 			);
-			path = Model;
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		725DB2422A2AC90200D39198 /* Utility */ = {
@@ -532,6 +532,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,6 +563,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
